@@ -1,8 +1,7 @@
 RewriteEngine On
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-#if not already blog.website.com
-RewriteCond %{HTTP_HOST} !^photos\.jshao\.me$ [NC] 
-#if request is for blog/, go to blog.website.com
-RewriteRule ^photos/$ http://photos.jshao.me [L,NC,R=301] 
+RewriteCond %{HTTP_HOST} ^(.*)\.jshao\.me
+RewriteRule ^(.*)$ http://jshao.me/%1/$1 [L,NC,QSA]
+
