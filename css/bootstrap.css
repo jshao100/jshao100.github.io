@@ -6822,3 +6822,28 @@ html, body {
       #about .about-text p a:hover {
         text-decoration: none;
         color: #006eff; }
+
+#projects > .container {
+  width: 100%;
+  max-width: 100%; }
+#projects .project-row {
+  margin-bottom: 50px; }
+#projects .card-lg {
+  box-shadow: 0px 0px 40px -10px #d6d6d6; }
+  #projects .card-lg .card-top {
+    height: 80%; }
+  #projects .card-lg .card-bottom {
+    height: 20%; }
+    #projects .card-lg .card-bottom .container {
+      width: 85%; }
+      #projects .card-lg .card-bottom .container p {
+        font-family: 'Work Sans', sans-serif;
+        color: #282828;
+        padding: 0; }
+      #projects .card-lg .card-bottom .container .card-title {
+        font-size: 14pt;
+        font-weight: bold; }
+      #projects .card-lg .card-bottom .container .card-text {
+        font-size: 12pt; }
+#projects .blue-card {
+  background-color: #4fa1ff; }
