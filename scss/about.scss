@@ -1,0 +1,94 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+
+#about {
+	height: 95%;
+	width: 100%;
+	-webkit-box-align: center;
+	display: flex;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+
+	.container {
+		@include media-breakpoint-only(xs) {
+			width: 80%;
+		}
+		@include media-breakpoint-only(sm) {
+			width: 70%;
+		}
+		@include media-breakpoint-only(md) {
+			width: 60%;
+		}
+		@include media-breakpoint-only(lg) {
+			width: 50%;
+		}
+		@include media-breakpoint-only(xl) {
+			width: 40%;
+		}
+	}
+
+	.about-title {
+		font-size: 18pt;
+		font-family: 'Work Sans', sans-serif;
+		padding: 0px;
+		color: $text-black;
+		float: left;
+		font-weight: bold;
+	}
+
+	.about-icons {
+		font-size: 18pt;
+		color: $text-black;
+		float: right;
+		text-align: right;
+
+		.social-icon {
+			color: $text-black;
+			text-decoration: none;
+			@include media-breakpoint-only(xs) {
+				margin-left: 5px;
+			}
+			@include media-breakpoint-only(sm) {
+				margin-left: 10px;
+			}
+			@include media-breakpoint-only(md) {
+				margin-left: 15px;
+			}
+			@include media-breakpoint-only(lg) {
+				margin-left: 20px;
+			}
+			@include media-breakpoint-only(xl) {
+				margin-left: 25px;
+			}
+
+			&.first {
+				margin-left: 0px;
+			}
+		}
+	}
+
+	.about-text {
+		p {
+			font-size: 16pt;
+			font-family: 'Work Sans', sans-serif;
+			color: $text-black;
+			text-align: left;
+
+			a {
+				color: $text-blue;
+
+				&:hover {
+					text-decoration: none;
+					color: $text-blue;
+				}
+			}
+		}
+	}
+}

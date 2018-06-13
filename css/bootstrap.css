@@ -6749,3 +6749,76 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased; }
+
+#about {
+  height: 95%;
+  width: 100%;
+  -webkit-box-align: center;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center; }
+  @media (max-width: 575.98px) {
+    #about .container {
+      width: 80%; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #about .container {
+      width: 70%; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #about .container {
+      width: 60%; } }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    #about .container {
+      width: 50%; } }
+  @media (min-width: 1200px) {
+    #about .container {
+      width: 40%; } }
+  #about .about-title {
+    font-size: 18pt;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    color: #282828;
+    float: left;
+    font-weight: bold; }
+  #about .about-icons {
+    font-size: 18pt;
+    color: #282828;
+    float: right;
+    text-align: right; }
+    #about .about-icons .social-icon {
+      color: #282828;
+      text-decoration: none; }
+      @media (max-width: 575.98px) {
+        #about .about-icons .social-icon {
+          margin-left: 5px; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        #about .about-icons .social-icon {
+          margin-left: 10px; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        #about .about-icons .social-icon {
+          margin-left: 15px; } }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        #about .about-icons .social-icon {
+          margin-left: 20px; } }
+      @media (min-width: 1200px) {
+        #about .about-icons .social-icon {
+          margin-left: 25px; } }
+      #about .about-icons .social-icon.first {
+        margin-left: 0px; }
+  #about .about-text p {
+    font-size: 16pt;
+    font-family: 'Work Sans', sans-serif;
+    color: #282828;
+    text-align: left; }
+    #about .about-text p a {
+      color: #006eff; }
+      #about .about-text p a:hover {
+        text-decoration: none;
+        color: #006eff; }
