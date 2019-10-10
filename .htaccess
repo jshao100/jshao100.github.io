@@ -1,7 +1,3 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
-RewriteCond %{HTTP_HOST} ^(.*)\.jshao\.me
-RewriteRule ^(.*)$ http://jshao.me/%1/$1 [L,NC,QSA]
-
