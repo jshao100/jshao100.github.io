@@ -1,0 +1,17 @@
+.main {
+  height: 100%;
+  width: 100%;
+  border: 1px solid blue;
+  display: block; }
+
+.nav {
+  border: 1px solid green;
+  max-height: 25vh;
+  height: 150px;
+  width: 100%; }
+
+.about {
+  height: 750px;
+  min-height: 75vh;
+  width: 100%;
+  border: 1px solid red; }

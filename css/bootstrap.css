@@ -6779,21 +6779,24 @@ html, body {
       width: 50%; } }
   @media (min-width: 1200px) {
     #about .container {
-      width: 40%; } }
+      width: 50%; } }
+  #about .about-header {
+    margin-bottom: 1.5em; }
   #about .about-title {
-    font-size: 18pt;
+    font-size: 24pt;
     font-family: 'Work Sans', sans-serif;
     padding: 0px;
-    color: #282828;
+    color: #2aa2ec;
     float: left;
-    font-weight: bold; }
+    font-weight: bold;
+    line-height: 20px; }
   #about .about-icons {
+    line-height: 20px;
     font-size: 18pt;
-    color: #282828;
     float: right;
     text-align: right; }
     #about .about-icons .social-icon {
-      color: #282828;
+      color: #2aa2ec;
       text-decoration: none; }
       @media (max-width: 575.98px) {
         #about .about-icons .social-icon {
@@ -6812,16 +6815,19 @@ html, body {
           margin-left: 25px; } }
       #about .about-icons .social-icon.first {
         margin-left: 0px; }
+      #about .about-icons .social-icon i {
+        transition: transform .25s ease-in-out; }
+      #about .about-icons .social-icon:hover i {
+        transform: scale(1.2); }
   #about .about-text p {
     font-size: 16pt;
     font-family: 'Work Sans', sans-serif;
     color: #282828;
     text-align: left; }
     #about .about-text p a {
-      color: #006eff; }
+      color: #2aa2ec; }
       #about .about-text p a:hover {
-        text-decoration: none;
-        color: #006eff; }
+        text-decoration: underline; }
 
 #projects > .container {
   width: 100%;

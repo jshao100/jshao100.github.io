@@ -30,27 +30,32 @@ html, body {
 			width: 50%;
 		}
 		@include media-breakpoint-only(xl) {
-			width: 40%;
+			width: 50%;
 		}
 	}
 
+	.about-header {
+		margin-bottom: 1.5em;
+	}
+
 	.about-title {
-		font-size: 18pt;
+		font-size: 24pt;
 		font-family: 'Work Sans', sans-serif;
 		padding: 0px;
-		color: $text-black;
+		color: $text-blue;
 		float: left;
 		font-weight: bold;
+		line-height: 20px;
 	}
 
 	.about-icons {
+		line-height: 20px;
 		font-size: 18pt;
-		color: $text-black;
 		float: right;
 		text-align: right;
 
 		.social-icon {
-			color: $text-black;
+			color: $text-blue;
 			text-decoration: none;
 			@include media-breakpoint-only(xs) {
 				margin-left: 5px;
@@ -71,6 +76,16 @@ html, body {
 			&.first {
 				margin-left: 0px;
 			}
+
+			i {
+				transition: transform .25s ease-in-out;
+			}
+
+			&:hover {
+				i {
+					transform: scale(1.2);
+				}
+			}
 		}
 	}
 
@@ -85,8 +100,7 @@ html, body {
 				color: $text-blue;
 
 				&:hover {
-					text-decoration: none;
-					color: $text-blue;
+					text-decoration: underline;
 				}
 			}
 		}
