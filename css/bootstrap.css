@@ -6757,14 +6757,37 @@ html, body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased; }
 
+body {
+  display: table; }
+
 #about {
-  height: 95%;
   width: 100%;
   -webkit-box-align: center;
-  display: flex;
+  display: table-cell;
+  vertical-align: middle;
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center; }
+  @media (max-width: 575.98px) {
+    #about {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #about {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #about {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    #about {
+      padding-top: 20px;
+      padding-top: 20px; } }
+  @media (min-width: 1200px) {
+    #about {
+      padding-top: 10px;
+      padding-top: 10px; } }
   @media (max-width: 575.98px) {
     #about .container {
       width: 80%; } }
@@ -6792,9 +6815,17 @@ html, body {
     line-height: 20px; }
   #about .about-icons {
     line-height: 20px;
-    font-size: 18pt;
     float: right;
     text-align: right; }
+    @media (max-width: 575.98px) {
+      #about .about-icons {
+        font-size: 18pt;
+        text-align: left;
+        padding-left: 0;
+        margin-top: 5px; } }
+    @media (min-width: 576px) {
+      #about .about-icons {
+        font-size: 18pt; } }
     #about .about-icons .social-icon {
       color: #2aa2ec;
       text-decoration: none; }
@@ -6823,11 +6854,26 @@ html, body {
     font-size: 16pt;
     font-family: 'Work Sans', sans-serif;
     color: #282828;
-    text-align: left; }
+    text-align: justify; }
     #about .about-text p a {
       color: #2aa2ec; }
       #about .about-text p a:hover {
         text-decoration: underline; }
+    @media (max-width: 575.98px) {
+      #about .about-text p {
+        font-size: 13pt; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      #about .about-text p {
+        font-size: 14pt; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      #about .about-text p {
+        font-size: 15pt; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      #about .about-text p {
+        font-size: 16pt; } }
+    @media (min-width: 1200px) {
+      #about .about-text p {
+        font-size: 16pt; } }
 
 #projects > .container {
   width: 100%;
