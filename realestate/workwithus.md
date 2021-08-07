@@ -1,15 +1,13 @@
 ---
 layout: page
 title: Work with us
+subtitle: Or just talk to us, we love talking shop
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+We're always happy to chat with people, no matter their level of expertise or their market. We're currently looking for:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- **private and hard money lenders**
+- **short term rental leads**
+- **Indy & Louisville leads and contacts**
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+If you're interested in working with us or want to learn more about our investing theorem, please reach out. You can find our email and calendly link at the bottom on the page. Feel free to set up a call on our calendar or shoot us an email.
