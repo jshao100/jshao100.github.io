@@ -1,82 +1,25 @@
 ---
 layout: post
 title: Hello World
-subtitle: A test blog post with all the goodies
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
+subtitle: Why start a blog?
+#cover-img: /assets/img/path.jpg
+#thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [test]
-#gh-repo: jshao100
-#gh-badge: [star, fork, follow]
+tags: [Personal, Musings, Self Reflection, General, Real Estate, RE, Real Estate Investing]
 comments: true
+# prefix to author, eg. "by" James
+author-prefix: Musings by
 author: James
+#last-updated: 2021-08-03
+readtime: false
 ---
 
-Here I will write a test paragraph and try out various markdown entries. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+There are many reasons I'm interested in starting a blog; some are personal, others are rooted in self interest. Most importantly however, I find that writing gives me time to collect my thoughts and provides a window to the past me for self reflection and growth. I intend to maintain this blog as a space to park my thoughts, reflect on them, and help educate others interested in following a similar path.
 
-**Here is some bold text**
+When I think back, there was so much I didn't know. And yet, after a year of education and active work, I find that there is still so much to learn about real estate. As I grow, I find there are more and more doors to open and that life is not nearly as linear as we were led to believe growing up. The often parroted path is to go to college, get a degree, get a job, and work for the next fourty years. Success is measured in salary, promotions and wealth and controlled mostly by your employer and not self action. Why not work for yourself, make your own path and control your own happiness?
 
-## Here is a secondary heading
+> "The more you know, the more you realize you don't know." - Aristotle
 
-Here's a useless table:
+Just in the past year, we've grown our portfolio from almost nothing to a moderate thirteen doors in Indianapolis. We've dipped our toes into short term rentals, we've started expanding to new markets, we've been able to start a house hack in a high cost of living market. From the outside, it might look like we're growing fast, but to us, we haven't done nearly as much as we wanted to. There are so many different paths and opportunities in real estate and we're just scratching the surface.
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+Kat and I like to say real estate goes as fast as you want it to. Unlike a W2 job where there is a somewhat logarithmic relationship between effort and results, real estate seems to only accellerate until your systems and processes are straining to keep up. At times, it can be overwhelming and difficult to keep up but right now, I feel great motivation to grow our business and continue learning.

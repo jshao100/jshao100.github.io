@@ -87,6 +87,17 @@
                 Last updated {{ page.last-updated | date: date_format }}
               </span>
             {% endif %}
+            {% if page.author %}
+              <span class="post-meta">
+                <span class="d-none d-md-inline middot">&middot;</span>
+                {% if page.author-prefix %}
+                  {{ page.author-prefix }}
+                {% else %}
+                  Posted by 
+                {% endif %}
+                 {{ page.author }}
+              </span>
+            {% endif %}
             {% if page.readtime %}
               {% include readtime.html %}
             {% endif %}
