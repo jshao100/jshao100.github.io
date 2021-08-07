@@ -14,11 +14,11 @@ author: James & Kat
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Us: "real_estate/aboutus"
+  About Us: "realestate/aboutus"
   Nest Away Stays:
-    - What We Do: "real_estate/nestawaystays_about"
-    - Our Properties: "real_estate/nestawaystays_properties"
-  Work With Us: "real_estate/workwithus"
+    - What We Do: "realestate/nestawaystays"
+    - Our Properties: "realestate/nestawaystays/properties"
+  Work With Us: "realestate/workwithus"
 
 # --- Logo --- #
 
@@ -78,7 +78,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "jshao.dev/real_estate"
+url-pretty: "jshao.dev/realestate"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -198,7 +198,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-paginate_path: "/real_estate/page:num/"
+paginate_path: "/realestate/page:num/"
 
 kramdown:
   input: GFM
