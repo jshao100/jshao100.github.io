@@ -196,7 +196,7 @@ date_format: "%B %-d, %Y"
 timezone: "America/Seattle"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: realestate/:year-:month-:day-:title/
 paginate: 5
 paginate_path: "/realestate/page:num/"
 
