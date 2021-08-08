@@ -7,7 +7,7 @@ layout: null
 /* --- General --- */
 
 html {
-  font-size: 100%
+  font-size: 100%;
 }
 
 body {
@@ -15,18 +15,23 @@ body {
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
-  background-color: {{ site.page-col | default: "#FFFFFF" }};
+  background: {{ site.page-col | default: "#FFFFFF" }} url(https://d1qmdf3vop2l07.cloudfront.net/gifted-pooch.cloudvent.net/hash-store/8bbfef57ca63f56855869b26a18ea40f.svg) center top no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% endif %}
 }
+
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: {{ site.header-col | default: "#404040" }};
   font-weight: 800;
   line-height: 1.1;
 }
@@ -304,7 +309,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.header-hover-col | default: "#0085A1" }};
 }
 
 .navbar-custom .avatar-container {
@@ -348,8 +353,8 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
-    width: 6.25rem;
-    bottom: -1.9375rem;
+    width: 5rem;
+    bottom: -1.8rem;
   }
 
   .navbar-custom.top-nav-regular .avatar-container .avatar-img-border {
@@ -364,6 +369,10 @@ img {
   .navbar-custom.top-nav-regular .avatar-container .avatar-img {
     width: 100%;
   }
+}
+
+.navbar-custom a:hover {
+  color: {{ site.header-hover-col | default: site.hover-col }} !important;
 }
 
 /* --- Footer --- */
@@ -386,6 +395,10 @@ footer p.text-muted {
 
 footer a {
   color: {{ site.footer-link-col | default: "#404040" }};
+}
+
+footer a:hover {
+  color: {{ site.footer-hover-col | default: site.hover-col }};
 }
 
 footer .list-inline {
@@ -1093,4 +1106,8 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
+}
+
+.ideal-image-slider a {
+  background-size: contain;
 }
