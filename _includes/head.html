@@ -141,6 +141,8 @@
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}
 
+  {% include slider_styles.html %}
+
   {% if page.head-extra %}
     {% for file in page.head-extra %}
       {% include {{ file }} %}
