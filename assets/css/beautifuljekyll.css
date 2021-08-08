@@ -15,7 +15,8 @@ body {
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
-  background: {{ site.page-col | default: "#FFFFFF" }} url(https://d1qmdf3vop2l07.cloudfront.net/gifted-pooch.cloudvent.net/hash-store/8bbfef57ca63f56855869b26a18ea40f.svg) center top no-repeat;
+  background-color: {{ site.page-col | default: "#FFFFFF" }};
+  /* background: {{ site.page-col | default: "#FFFFFF" }} url(https://d1qmdf3vop2l07.cloudfront.net/gifted-pooch.cloudvent.net/hash-store/8bbfef57ca63f56855869b26a18ea40f.svg) center top no-repeat; */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
