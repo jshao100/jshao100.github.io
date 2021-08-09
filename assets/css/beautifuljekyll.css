@@ -513,7 +513,7 @@ footer .footer-custom-content {
     -moz-transition: opacity 0.5s ease-in-out;
   }
 }
-@media (max-width: 374px) {
+@media (max-width: 549px) {
   .navbar-custom.top-nav-regular .avatar-container {
     display: none;
   }
