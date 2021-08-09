@@ -92,8 +92,11 @@ feed_show_tags: true
 # Add a search button to the navbar
 post_search: true
 
+# Show posts published in the future
+future: true
+
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "re,real estate,investing,real estate investing,brrrr,brrrr method,brrrr strategy,brrrr real estate,brrrr calculator,indy,indy real estate,indy brrrr,indianapolis,indianpolis real estate,airbnb,short term rental,vrbo,louisville,louisville real estate,louisville brrrr,indy investing,house hack,seattle,real estate investing strategies,real estate education"
 
 # --- Colours / background image --- #
 
