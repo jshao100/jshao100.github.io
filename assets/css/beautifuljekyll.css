@@ -1139,6 +1139,7 @@ pre {
   }
 }
 
-.ideal-image-slider a {
+.ideal-image-slider .iis-slide {
   background-size: contain;
+  background-color: {{ site.page-col | default: "#FFFFFF" }};
 }
