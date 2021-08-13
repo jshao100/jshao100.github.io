@@ -10,7 +10,7 @@ html {
   font-size: 100%;
 }
 
-body {
+body, input {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
@@ -1143,3 +1143,109 @@ pre {
   background-size: contain;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
 }
+
+/* Mailchimp Form CSS */
+.footer-mailchimp {
+  margin-bottom: 1.875rem
+}
+
+#mc_embed_signup {
+  clear:left; 
+  text-align: center;
+}
+
+#mc_embed_signup form {
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid {{ site.footer-span-col | default: "#404040" }};
+  width: 60%;
+}
+
+#mc_embed_signup form a {
+    color: #84d4f3;
+}
+
+#mc_embed_signup input {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+#mc_embed_signup_scroll {
+  display: block;
+  width: 100%;
+}
+
+.mc-field-group {
+  display: inline-block;
+  width: 75%;
+}
+
+.mc-field-group .email{
+  width: 100%;
+  border: none;
+  border-radius: 3px 0px 0px 3px;
+}
+
+#mc_embed_signup_scroll .clear {
+  display: inline-block;
+  width: 25%; /* Must add up to 100% with .mc-field-group */
+}
+
+#mc_embed_signup_scroll .clear .button {
+  border: none;
+  border-radius: 0px 3px 3px 0px;
+  background-color: {{ site.footer-span-col | default: "#404040" }};
+  color: {{ site.page-col | default: "#FFFFFF" }};
+  width: 100%;
+}
+
+#mc_embed_signup_scroll .clear .button:hover {
+  background-color: {{ site.footer-hover-col | default: site.hover-col }};
+}
+
+#mc_embed_signup div.mce_inline_error,
+#mc_embed_signup .response {
+  position: absolute;
+  background-color: #480f0f59 !important;
+  padding: .1rem .3rem !important;
+  color: {{ site.page-col | default: "#FFFFFF" }} !important;
+  font-weight: normal !important;
+  font-size: 0.75rem !important;
+}
+
+#mc_embed_signup .response {
+  position: relative !important;
+}
+
+@media (max-width: 630px) {
+  .mc-field-group {
+    width: 100%;
+  }
+
+  #mc_embed_signup_scroll .clear {
+    width: 100%;
+  }
+
+  #mc_embed_signup_scroll .clear .button {
+    border-radius: 0px 0px 3px 3px;
+  }
+
+  .mc-field-group .email{
+    border-radius: 3px 3px 0px 0px;
+  }
+
+  #mc_embed_signup .response {
+    display: inline;
+  }
+  
+  #mc_embed_signup form {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
