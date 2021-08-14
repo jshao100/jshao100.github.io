@@ -5,7 +5,7 @@ subtitle: Why start a blog?
 #cover-img: /assets/img/path.jpg
 #thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [Personal, Musings, Self Reflection, General, Real Estate, RE, Real Estate Investing]
+tags: [Personal, Musings, Self Reflection, General, Real Estate]
 comments: true
 # prefix to author, eg. "by" James
 author-prefix: Musings by

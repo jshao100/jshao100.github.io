@@ -5,7 +5,7 @@ subtitle: A walkthrough following a standard deal lifecycle
 #cover-img: /assets/img/banner/indy1.jpeg
 thumbnail-img: /assets/img/thumbnail/analysis1.jpeg
 share-img: /assets/img/thumbnail/analysis1.jpeg
-tags: [General, Real Estate, RE, Real Estate Investing, BRRRR, Education, Single Family Home, SFH, Long Term Rental, Refinance, Indianapolis, Indy, Analysis, Walkthrough, Deal]
+tags: [Real Estate, BRRRR, Education, Single Family Home, Long Term Rental, Refinance, Indianapolis, Analysis, Walkthrough, Deal]
 comments: true
 # prefix to author, eg. "by" James
 author-prefix: Analysis by

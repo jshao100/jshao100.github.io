@@ -1,5 +1,5 @@
 # On Everything
-Real Estate, RE, Real Estate Investing
+Real Estate
 
 # Types of Posts
 Personal
@@ -7,6 +7,8 @@ Musings
 Education
 General
 Self Reflection
+Series
+Getting Started
 
 # Real Estate
 Buying
@@ -16,10 +18,10 @@ Market Trends
 Real Estate Tips
 Residential
 Commercial
-Long Term Rental, LTR
-Short Term Rental, STR, Airbnb
-Single Family Home, SFH
-Multi Family, Multi Family Home, MFH
-Indianapolis, Indy, Indiana, Midwest
-Louisville, Kentucky, Midwest
+Long Term Rental
+Short Term Rental
+Single Family
+Multi Family
+Indianapolis
+Louisville
 BRRRR
