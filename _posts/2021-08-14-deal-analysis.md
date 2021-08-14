@@ -15,6 +15,7 @@ readtime: false
 image_sliders:
   - karen_before
   - karen_after
+published: true
 ---
 
 The goal of this deal walkthrough is to provide an idea for what a *realistic* BRRRR deal may look like. The word *realistic* will depend on the investor, their criteria and the market. Some investors will be more concerned with pulling out their initial capital and be okay with a cash flow neutral property. We prefer looking at cash flow and cash-on-cash rather than recovering the all-in. I'll walk through the entire BRRRR process and finally review performance and learnings.

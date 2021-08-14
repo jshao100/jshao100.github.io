@@ -12,6 +12,7 @@ author-prefix: Musings by
 author: James
 #last-updated: 2021-08-03
 readtime: false
+published: true
 ---
 
 There are many reasons I'm interested in starting a blog; some are personal, others are rooted in self interest. Most importantly however, I find that writing gives me time to collect my thoughts and provides a window to the past me for self reflection and growth. I intend to maintain this blog as a space to park my thoughts, reflect on them, and help educate others interested in following a similar path.
