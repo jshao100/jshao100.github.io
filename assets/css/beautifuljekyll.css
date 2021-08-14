@@ -1256,6 +1256,15 @@ pre {
   }
 }
 
+.btn-primary {
+  background-color: {{ site.footer-span-col | default: "#404040" }};
+  border: solid 1px {{ site.footer-text-col | default: "#777777" }};
+}
+
+.btn-primary:hover {
+  background-color: {{ site.footer-hover-col | default: site.hover-col }};
+}
+
 
 
 
