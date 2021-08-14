@@ -1265,7 +1265,10 @@ pre {
   background-color: {{ site.footer-hover-col | default: site.hover-col }};
 }
 
-
+.legal-disclaimer {
+  font-size: 0.6rem;
+  font-style: italic;
+}
 
 
 
