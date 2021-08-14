@@ -39,7 +39,7 @@ round-avatar: false
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "james_kat@outlook.com"
+  email: "blog@jshao.dev"
 #  facebook: deanattali
 #  github: daattali
 #  twitter: daattali
@@ -65,7 +65,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: James & Kat write about their real estate journey
+rss-description: James & Kat write about their real estate journey and learnings
 
 # --- General options --- #
 

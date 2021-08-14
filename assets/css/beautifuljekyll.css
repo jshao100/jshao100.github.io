@@ -125,6 +125,18 @@ img {
   }
 }
 
+thead tr,
+tbody tr:nth-child(even)
+{
+  background: #fbf7ea !important;
+}
+
+tbody tr:nth-child(odd)
+{
+  background: {{ site.page-col | default: "#f8f8f8" }};
+}
+
+
 /* --- Navbar --- */
 
 .navbar-custom {
