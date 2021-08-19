@@ -1270,6 +1270,20 @@ pre {
   font-style: italic;
 }
 
+.aboutus-img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 5px solid rgb(178 150 125 / 65%);
+}
+
+@media (max-width: 630px) {
+  .aboutus-img {
+    width: 75%;
+  }
+}
+
 
 
 

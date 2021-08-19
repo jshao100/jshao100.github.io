@@ -4,8 +4,9 @@ title: About us
 subtitle: Get to know a little about us
 ---
 
-We're James & Kat. Full time software engineers and real estate investors. We live in Seattle with our three cats, Jason, Nori and Mukkuru. We love to talk about cats, food and real estate!
+<img src="/assets/img/aboutus/us.jpg" alt="James & Kat" class="aboutus-img">
 
+Hi! We're James & Kat. Full time software engineers and real estate investors. We live in Seattle with our three cats, Jason, Nori and Mukkuru. We love to talk about cats, food and real estate!
 
 ### Our story
 
