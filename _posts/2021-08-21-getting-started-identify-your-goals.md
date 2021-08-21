@@ -1,7 +1,7 @@
 ---
 layout: post # Do not touch
-title: "Series: Getting started in real estate"
-subtitle: Identify your goals
+title: "Identify your investment goals"
+subtitle: Getting Started in Real Estate series 1/5
 cover-img: # If you want a banner image
 thumbnail-img: /assets/img/thumbnail/gettingstarted.jpg
 share-img: /assets/img/thumbnail/gettingstarted.jpg
@@ -18,7 +18,7 @@ published: true # Use to hide posts
 
 A question we often get asked is "How can I get started in real estate?" Often times, people are aware of real estate and actively educate themselves but are still lost on where to begin. This can be due to a variety of factors but usually the heart of the matter is that there is so much you need to know to get started. With this five part weekly series, we will try to break down the learnings from our own journey in the hopes that it makes your climb less daunting.
 
-1. Getting Started: Identify your goals
+1. Identify your investment goals
 2. Determine a market
 3. Build a team you can trust
 4. Complete your first deal
