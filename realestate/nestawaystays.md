@@ -3,7 +3,7 @@ layout: page
 title: Nest Away Stays
 ---
 
-Nest Away Stays is our short term rental management vision. We have a vision to build a brand that guests can trust, across cities and eventually countries.
+Nest Away Stays is our **short term rental** management vision. We have a vision to build a brand that guests can trust, across cities and eventually countries.
 
 The name explains it all. We want guests to feel at home, no matter which property they stay at. We believe guests notice when you provide a consistent, comfortable and memorable experience. When you stay with Nest Away Stays, you know that everything was carefully considered and tastefully designed.
 
