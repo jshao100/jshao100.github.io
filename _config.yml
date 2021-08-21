@@ -15,6 +15,7 @@ author: James & Kat
 
 navbar-links:
   About Us: "realestate/aboutus"
+  Blog: "realestate"
   Nest Away Stays:
     - What We Do: "realestate/nestawaystays"
     - Our Properties: "realestate/nestawaystays/properties"
